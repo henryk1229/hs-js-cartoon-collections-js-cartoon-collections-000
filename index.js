@@ -31,6 +31,8 @@ function findTheCheese (foods) {
       return "cheddar";
     } else if (foods[i] === "camembert") {
       return "camembert";
+    } else if (foods[i] === "swiss cheese") {
+      return "swiss cheese";
     }
   }
  return "no cheese!";
